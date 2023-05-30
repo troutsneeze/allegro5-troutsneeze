@@ -1,0 +1,643 @@
+The system is: Linux - 5.4.0-37-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/trent/code/third_party/steamworks/tools/linux/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/trent/code/third_party/steamworks/tools/linux/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_121c6/fast && /usr/bin/make -f CMakeFiles/cmTC_121c6.dir/build.make CMakeFiles/cmTC_121c6.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_121c6.dir/testCCompiler.c.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc    -o CMakeFiles/cmTC_121c6.dir/testCCompiler.c.o   -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_121c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_121c6.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc      -rdynamic CMakeFiles/cmTC_121c6.dir/testCCompiler.c.o  -o cmTC_121c6 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_556d7/fast && /usr/bin/make -f CMakeFiles/cmTC_556d7.dir/build.make CMakeFiles/cmTC_556d7.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc   -v -o CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c,c++,objc,obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long
+Thread model: posix
+gcc version 4.6.3 (crosstool-NG 1.17.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/cc1 -quiet -v -I /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include -iprefix /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/ -isysroot /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccAgNS75.s
+GNU C (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.6.3, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include"
+ignoring nonexistent directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.6.3, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 813f775cb12a04bf1f39b60a9d36b606
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/as --64 -o CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o /tmp/ccAgNS75.s
+COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_556d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556d7.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc     -v -rdynamic CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o  -o cmTC_556d7 
+Using built-in specs.
+COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c,c++,objc,obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long
+Thread model: posix
+gcc version 4.6.3 (crosstool-NG 1.17.0) 
+COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_556d7' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2 --sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_556d7 /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o --build-id -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_556d7/fast && /usr/bin/make -f CMakeFiles/cmTC_556d7.dir/build.make CMakeFiles/cmTC_556d7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/trent/code/third_party/steamworks/tools/linux/bin/cc   -v -o CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c c++ objc obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (crosstool-NG 1.17.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/cc1 -quiet -v -I /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include -iprefix /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/ -isysroot /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccAgNS75.s]
+  ignore line: [GNU C (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.6.3  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.6.3  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 813f775cb12a04bf1f39b60a9d36b606]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/as --64 -o CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o /tmp/ccAgNS75.s]
+  ignore line: [COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_556d7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556d7.dir/link.txt --verbose=1]
+  ignore line: [/home/trent/code/third_party/steamworks/tools/linux/bin/cc     -v -rdynamic CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o  -o cmTC_556d7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c c++ objc obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (crosstool-NG 1.17.0) ]
+  ignore line: [COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_556d7' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2 --sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_556d7 /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o --build-id -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2] ==> ignore
+    arg [--sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_556d7] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o] ==> ignore
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_556d7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c1x] compiler features compiled with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ecb9/fast && /usr/bin/make -f CMakeFiles/cmTC_7ecb9.dir/build.make CMakeFiles/cmTC_7ecb9.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ecb9.dir/feature_tests.c.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc   -std=c1x -o CMakeFiles/cmTC_7ecb9.dir/feature_tests.c.o   -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7ecb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ecb9.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc      -rdynamic CMakeFiles/cmTC_7ecb9.dir/feature_tests.c.o  -o cmTC_7ecb9 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_variadic_macros
+    Feature record: C_FEATURE:1c_static_assert
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3924b/fast && /usr/bin/make -f CMakeFiles/cmTC_3924b.dir/build.make CMakeFiles/cmTC_3924b.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3924b.dir/testCXXCompiler.cxx.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++     -o CMakeFiles/cmTC_3924b.dir/testCXXCompiler.cxx.o -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3924b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3924b.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++       -rdynamic CMakeFiles/cmTC_3924b.dir/testCXXCompiler.cxx.o  -o cmTC_3924b 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d00da/fast && /usr/bin/make -f CMakeFiles/cmTC_d00da.dir/build.make CMakeFiles/cmTC_d00da.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++    -v -o CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c,c++,objc,obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long
+Thread model: posix
+gcc version 4.6.3 (crosstool-NG 1.17.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/cc1plus -quiet -v -I /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include -iprefix /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/ -isysroot /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cca4VHkg.s
+GNU C++ (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.6.3, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include"
+ignoring nonexistent directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed"
+ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++ (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 4.6.3, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 824ff69267f3b71de2d02dfe34e0946a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/as --64 -o CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o /tmp/cca4VHkg.s
+COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d00da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00da.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++      -v -rdynamic CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d00da 
+Using built-in specs.
+COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c,c++,objc,obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long
+Thread model: posix
+gcc version 4.6.3 (crosstool-NG 1.17.0) 
+COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d00da' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2 --sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00da /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o --build-id -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include]
+    add: [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3/backward]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include]
+  collapse include dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include/c++/4.6.3/backward;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/include;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d00da/fast && /usr/bin/make -f CMakeFiles/cmTC_d00da.dir/build.make CMakeFiles/cmTC_d00da.dir/build]
+  ignore line: [make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/trent/code/third_party/steamworks/tools/linux/bin/c++    -v -o CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c c++ objc obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (crosstool-NG 1.17.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/cc1plus -quiet -v -I /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include -iprefix /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/ -isysroot /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cca4VHkg.s]
+  ignore line: [GNU C++ (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.6.3  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/../../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/x86_64-unknown-linux-gnu]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include/c++/4.6.3/backward]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include-fixed]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/include]
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (crosstool-NG 1.17.0) version 4.6.3 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.6.3  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 824ff69267f3b71de2d02dfe34e0946a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/as --64 -o CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o /tmp/cca4VHkg.s]
+  ignore line: [COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d00da]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00da.dir/link.txt --verbose=1]
+  ignore line: [/home/trent/code/third_party/steamworks/tools/linux/bin/c++      -v -rdynamic CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d00da ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/trent/code/third_party/steamworks/tools/linux/bin/../amd64/x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /build/steam-runtime/crosstool/amd64/.build/src/gcc-4.6.3/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=x86_64-unknown-linux-gnu --prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu --with-sysroot=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-languages=c c++ objc obj-c++ --with-pkgversion='crosstool-NG 1.17.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpfr=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-mpc=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-ppl=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-cloog=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-libelf=/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm -L/build/steam-runtime/crosstool/amd64/.build/x86_64-unknown-linux-gnu/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --enable-gold --disable-nls --disable-multilib --with-local-prefix=/build/steam-runtime/crosstool/amd64/../../x-tools/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot --enable-c99 --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (crosstool-NG 1.17.0) ]
+  ignore line: [COMPILER_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/:/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d00da' '-I' '/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/include' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib' '-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2 --sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00da /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64 -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib -L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o --build-id -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib -rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o /home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.6.3/collect2] ==> ignore
+    arg [--sysroot=/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d00da] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtbegin.o] ==> ignore
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib]
+    arg [-L/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib] ==> dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d00da.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> ignore
+    arg [-rpath-link=/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/crtend.o] ==> ignore
+    arg [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu] ==> [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../x86_64-unknown-linux-gnu/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib]
+  collapse library dir [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/bin/../x86_64-unknown-linux-gnu/sysroot/usr/lib] ==> [/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/lib/x86_64-linux-gnu;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib;/home/trent/code/third_party/steamworks/tools/linux/runtime/amd64/usr/lib/x86_64-linux-gnu;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc/x86_64-unknown-linux-gnu/4.6.3;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/lib/gcc;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib64;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/lib;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/lib;/home/trent/code/third_party/steamworks/tools/linux/amd64/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28ccb/fast && /usr/bin/make -f CMakeFiles/cmTC_28ccb.dir/build.make CMakeFiles/cmTC_28ccb.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28ccb.dir/feature_tests.cxx.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++    -std=c++0x -o CMakeFiles/cmTC_28ccb.dir/feature_tests.cxx.o -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_28ccb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28ccb.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++       -rdynamic CMakeFiles/cmTC_28ccb.dir/feature_tests.cxx.o  -o cmTC_28ccb 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9baba/fast && /usr/bin/make -f CMakeFiles/cmTC_9baba.dir/build.make CMakeFiles/cmTC_9baba.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9baba.dir/feature_tests.cxx.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++    -std=c++98 -o CMakeFiles/cmTC_9baba.dir/feature_tests.cxx.o -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9baba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9baba.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/c++       -rdynamic CMakeFiles/cmTC_9baba.dir/feature_tests.cxx.o  -o cmTC_9baba 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08d4c/fast && /usr/bin/make -f CMakeFiles/cmTC_08d4c.dir/build.make CMakeFiles/cmTC_08d4c.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08d4c.dir/CheckIncludeFile.c.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_08d4c.dir/CheckIncludeFile.c.o   -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08d4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d4c.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_08d4c.dir/CheckIncludeFile.c.o  -o cmTC_08d4c 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_784c3/fast && /usr/bin/make -f CMakeFiles/cmTC_784c3.dir/build.make CMakeFiles/cmTC_784c3.dir/build
+make[1]: Entering directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_784c3.dir/CheckIncludeFile.c.o
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_784c3.dir/CheckIncludeFile.c.o   -c /home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_784c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_784c3.dir/link.txt --verbose=1
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_784c3.dir/CheckIncludeFile.c.o  -o cmTC_784c3 
+make[1]: Leaving directory '/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp'
+
+
+

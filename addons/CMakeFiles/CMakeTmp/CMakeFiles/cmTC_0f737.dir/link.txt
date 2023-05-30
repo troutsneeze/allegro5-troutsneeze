@@ -1,0 +1,1 @@
+/home/trent/code/third_party/steamworks/tools/linux/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_0f737.dir/CheckIncludeFile.c.o  -o cmTC_0f737 

@@ -1,0 +1,3 @@
+/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
+/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+/home/trent/code/third_party/allegro-5.2.5.0-ashedit3/addons/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0f737.dir
